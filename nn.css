@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  .banner{
+     background-image: url(OIP\ background.jpg);
+     filter: contrast(80%)
+    height: 900px;
+    width: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+.navbar{
+
+    text-align: center;
+    
+}
+.navbar ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+.navbar ul li{
+    display: inline;
+    margin: 0 1px;
+    justify-content: center;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 30px;
+}
+.navbar ul li a :hover{
+    background: color #555;
+    border-radius: 80px ;
+    color: black;
+}
+.navbar a:hover{
+color: red;
+text-decoration: underline;
+}
+
+
+.container img:hover{
+transform: rotate(30deg);
+animation-duration: 1s;
+animation-timing-function: ease-in;
+}
+    
+
+h1{
+    display: flex;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.656);
+    text-decoration: line-through;
+   
+}
+.container{
+   display: flex;
+   justify-content: flex-start;
+   
+   margin: 0 10px;
+   flex-wrap: wrap;
+   gap: 20px;
+   flex-direction: column;
+   margin-top: 0 10px;
+    
+}
+
+.container img{
+    width: 180px;
+    height: 180px;
+    margin: 0 10px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.container p{
+    font-size: 17px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: initial;
+    gap: 30px;
+    color: white;
+}
+#noo{
+    line-height: 20px;
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    color: white;
+}
+#main{
+    background-color: rgb(0, 0, 0);
+    color: azure;
+}
+.btn{
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.btn:hover{
+    color: red;
+}
+
